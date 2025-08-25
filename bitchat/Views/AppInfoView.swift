@@ -18,41 +18,41 @@ struct AppInfoView: View {
     
     // MARK: - Constants
     private enum Strings {
-        static let appName = "bitchat"
-        static let tagline = "sidegroupchat"
+        static let appName = "Bitchat"
+        static let tagline = "Sidegroupchat"
         
         enum Features {
             static let title = "FEATURES"
-            static let offlineComm = ("wifi.slash", "offline communication", "works without internet using Bluetooth low energy")
-            static let encryption = ("lock.shield", "end-to-end encryption", "private messages encrypted with noise protocol")
-            static let extendedRange = ("antenna.radiowaves.left.and.right", "extended range", "messages relay through peers, going the distance")
-            static let mentions = ("at", "mentions", "use @nickname to notify specific people")
-            static let favorites = ("star.fill", "favorites", "get notified when your favorite people join")
-            static let geohash = ("number", "local channels", "geohash channels to chat with people in nearby regions over decentralized anonymous relays")
+            static let offlineComm = ("wifi.slash", "Offline communication", "Works without internet using Bluetooth low energy.")
+            static let encryption = ("lock.shield", "End-to-end encryption", "Private messages encrypted with noise protocol.")
+            static let extendedRange = ("antenna.radiowaves.left.and.right", "Extended range", "Messages relay through peers, going the distance.")
+            static let mentions = ("at", "Mentions", "Use @nickname to notify specific people.")
+            static let favorites = ("star.fill", "Favorites", "Get notified when your favorite people join.")
+            static let geohash = ("number", "Local channels", "Geohash channels to chat with people in nearby regions over decentralized anonymous relays.")
         }
         
         enum Privacy {
             static let title = "PRIVACY"
-            static let noTracking = ("eye.slash", "no tracking", "no servers, accounts, or data collection")
-            static let ephemeral = ("shuffle", "ephemeral identity", "new peer ID generated regularly")
-            static let panic = ("hand.raised.fill", "panic mode", "triple-tap logo to instantly clear all data")
+            static let noTracking = ("eye.slash", "No tracking", "No servers, accounts, or data collection.")
+            static let ephemeral = ("shuffle", "Ephemeral identity", "New peer ID generated regularly.")
+            static let panic = ("hand.raised.fill", "Panic mode", "Triple-tap logo to instantly clear all data.")
         }
         
         enum HowToUse {
             static let title = "HOW TO USE"
             static let instructions = [
-                "• set your nickname by tapping it",
-                "• tap #mesh to change channels",
-                "• tap people icon for sidebar",
-                "• tap a peer's name to start a DM",
-                "• triple-tap chat to clear",
-                "• type / for commands"
+                "• Set your nickname by tapping it.",
+                "• Tap #mesh to change channels.",
+                "• Tap people icon for sidebar.",
+                "• Tap a peer's name to start a DM.",
+                "• Triple-tap chat to clear.",
+                "• Type / for commands."
             ]
         }
         
         enum Warning {
             static let title = "WARNING"
-            static let message = "private message security has not yet been fully audited. do not use for critical situations until this warning disappears."
+            static let message = "Private message security has not yet been fully audited. Do not use for critical situations until this warning disappears."
         }
     }
     
